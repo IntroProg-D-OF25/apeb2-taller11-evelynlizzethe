@@ -66,3 +66,13 @@ public class Ejercicio01_ProcesarMatrices {
         return (sumaMatriz / (matriz.length * matriz[0].length));
     }
 }
+/***
+ * Deme limFil y limCol: 2 2
+4 1 
+1 1 
+Elementos Pares de la Matriz:
+4111
+Elementos Impares de la Matriz:
+4111
+Promedio Matriz: 1.0
+ */
