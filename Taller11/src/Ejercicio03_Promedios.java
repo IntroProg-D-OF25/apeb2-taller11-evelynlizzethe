@@ -27,7 +27,7 @@ public class Ejercicio03_Promedios {
 
     public static String obtenerPromedioCualitativo(double num1, double num2,
             double num3, double num4) {
-        String resultado;
+        String resultado = " ";
         double promedio = (num1 + num2 + num3 + num4) / 4;
         if (promedio <= 5) {
             resultado = "Regular";
@@ -37,10 +37,7 @@ public class Ejercicio03_Promedios {
             resultado = "Muy Bueno";
         } else if (promedio <= 10) {
             resultado = "Sobresaliente";
-        } else {
-            resultado = "Promedio fuera de rango";
-        }
-
+        } 
         return resultado;
     }
 }
